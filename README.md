@@ -1,6 +1,6 @@
 # The Cyborg's Pen: Quantifying the Emotional Gap and Stylistic Divergence in Human vs. AI Narratives
 
-This repository contains the dataset, source code, and experimental results for the research paper **"The Cyborg's Pen"** (submitted to ACL).
+This repository contains the dataset, source code, and experimental results for the research paper **"The Cyborg's Pen"**.
 
 ## 📄 Abstract
 
@@ -81,16 +81,4 @@ To reproduce the figures and tables from the paper:
     python scripts/analyze_q3_attribution.py
     ```
 
-All results will be saved to `data/outputs/`.
-
-## 📜 Citation
-
-If you use this dataset or code, please cite our paper:
-
-```bibtex
-@inproceedings{zhou2025cyborgspen,
-  title={The Cyborg's Pen: Quantifying the Emotional Gap and Stylistic Divergence in Human vs. AI Narratives},
-  author={Tianji Zhou},
-  booktitle={Proceedings of the Association for Computational Linguistics (ACL)},
-  year={2025}
-}
+All results will be saved to `outputs/`.
