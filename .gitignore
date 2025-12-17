@@ -1,0 +1,25 @@
+# --- Secrets (CRITICAL: Never upload these) ---
+scripts/keys.py
+scripts/secrets.py
+*.env
+keys.py
+
+# --- Python Cache & Logs ---
+__pycache__/
+*.py[cod]
+*.log
+*.so
+.Python
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
