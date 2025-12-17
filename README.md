@@ -15,7 +15,6 @@ The project is organized to reproduce the three Research Questions (RQs) from th
 - **`data/`**: 
   - `final_dataset_human_vs_ai.csv`: The core parallel corpus containing prompts and stories from Humans, GPT-4o-mini, Gemini Flash, Claude Haiku, Claude Sonnet, and Gemini Pro.
   - `writingprompts.csv`: Preprocessed prompts source.
-  - **`outputs/`**: Contains generated figures (PNG), metric tables (CSV), and topic visualization (HTML).
 
 - **`scripts/`**: 
   - **Data Collection**:
@@ -33,6 +32,8 @@ The project is organized to reproduce the three Research Questions (RQs) from th
     - `analyze_q3_tfidf.py`: Runs the TF-IDF baseline.
     - `analyze_q3_comparative.py`: Compares "Hidden AI" vs. "Obvious AI".
     - `analyze_q3_attribution.py`: Visualizes the gap attribution (Figure 5).
+- **`outputs/`**: 
+    - Contains generated figures (PNG), metric tables (CSV), and topic visualization (HTML).
 
 ## 🚀 Getting Started
 
