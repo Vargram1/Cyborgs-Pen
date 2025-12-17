@@ -23,3 +23,4 @@ ENV/
 *.swp
 .DS_Store
 Thumbs.db
+paper/
