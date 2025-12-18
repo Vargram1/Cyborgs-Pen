@@ -4,7 +4,7 @@ This repository contains the dataset, source code, and experimental results for 
 
 ## 📄 Abstract
 
-As Large Language Models (LLMs) increasingly enter the domain of creative writing, the line between human and machine storytelling is blurring. In this study, we analyze a parallel corpus of over **8,600 narratives** to examine the 'emotional gap' between human authors and AI models, from standard baselines (GPT-4o-mini) to advanced systems like **Claude 3.5 Sonnet** and **Gemini 3 Pro**.
+As Large Language Models (LLMs) increasingly enter the domain of creative writing, the line between human and machine storytelling is blurring. In this study, we analyze a parallel corpus of over **8,600 narratives** to examine the 'emotional gap' between human authors and AI models, from standard baselines (GPT-4o-mini) to advanced systems like **Claude 4.5 Sonnet** and **Gemini 3 Pro**.
 
 We find distinct problems: although SOTA models have mastered human-level vocabulary, they suffer from a systemic 'emotional bias' stemming from safety alignment (RLHF). These AI narratives tend to force positivity and avoid realistic conflict at the expense of narrative depth. Our results show that while this surface-level mimicry can fool traditional TF-IDF detectors, deep semantic classifiers (DistilBERT) can still expose the underlying emotional sterility of machine-generated text.
 
@@ -31,7 +31,7 @@ The project is organized to reproduce the three Research Questions (RQs) from th
     - `analyze_q3.py`: Fine-tunes DistilBERT for detection.
     - `analyze_q3_tfidf.py`: Runs the TF-IDF baseline.
     - `analyze_q3_comparative.py`: Compares "Hidden AI" vs. "Obvious AI".
-    - `analyze_q3_attribution.py`: Visualizes the gap attribution (Figure 5).
+    - `analyze_q3_attribution.py`: Visualizes the g ap attribution (Figure 5).
 - **`outputs/`**: 
     - Contains generated figures (PNG), metric tables (CSV), and topic visualization (HTML).
 
